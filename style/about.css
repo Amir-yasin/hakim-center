@@ -1,0 +1,151 @@
+/* navbar section */
+.nav-link{
+    color: white;
+    text-decoration: none;  
+    margin:0 9px ;  
+    padding: 12px;
+} 
+.navbar-collapse{
+  background-color: #0d6efd;
+  border-radius: 30px;
+  margin: 2% 0;
+
+}
+.nav-link:hover{
+    color: #0a58ca;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+a:hover{
+    color: #0a58ca;
+}
+#google_translate_element{
+    background-color: #f8f9fa;
+    text-align: end;
+}
+
+.navbar-brand{
+    color: #0d6efd;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 4%;
+}
+ 
+ /* description section */
+
+
+.motto{
+    font-size: 400%;
+    width: 50%;
+    height: 35%;
+    font-weight: 50px;
+    line-height: 70px;
+    position: relative;
+    left: 60px;
+    top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.description{
+    font-size: 180%;
+    width: 40%;
+    height: 10%;
+    font-weight:bolder;
+    line-height: 35px;
+    position: relative;
+    left: 60px;
+    font-family:  Arial, sans-serif;
+}
+.description-about-page{
+    position: relative;
+    left: 60px;
+    width: 90%;
+    align-items: center;
+
+}
+.about-desc{
+    font-weight: 400;
+}
+
+.service-icon{
+    width: 150px;
+    height: 120px;
+    position: relative;
+    left: 4%;
+}
+.card{
+    padding: 0x;
+    width: 80%;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #fff;
+    margin:5% 10%; 
+    align-content: center; 
+    border: none;
+
+    
+}
+
+
+.core{
+    padding: 0x;
+    width: 80%;
+    border:"2px solid";
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #fff;
+    margin:2% 25% 5% 2%;
+    align-content: center;
+    
+
+}
+
+/* footer section */
+
+.footer{
+    background-color: #323643;
+    color: white;
+    align-items: center; 
+    margin-bottom: 0;
+    padding: 5% 5% 2%;   
+    }
+.footer-content{
+    padding-bottom: 2%;
+    }
+.cprt{
+      color: grey;
+    }
+
+
+
+@media (max-width: 800px) {
+
+.motto{
+    font-size: 330%;
+    width: 60%;
+    height: 35%;
+    line-height: 50px;
+    margin-bottom: 10%;
+
+}
+.btn{
+    margin-bottom: 3%;
+}
+.bg-img{
+    height: auto;
+}
+.about-desc{
+    margin-left: 0;
+}
+.core{
+    margin-left: 0;
+}
+.card{
+    margin-left: 0;
+    width: 100%;
+}
+}
